@@ -55,3 +55,20 @@ the design of your business card, e.g.:
 - animations     🤯🤯🤯
 */
 
+@media (min-width: 1024px) {
+    .card {
+        width: 600px;
+        padding: 40px;
+        font-size: 1.2rem;
+        box-shadow: 0 16px 40px rgba(0,0,0,0.25);
+        border-radius: 20px;
+        transition: box-shadow 0.3s;
+        font-size: 1.5rem
+
+    }
+    .avatar {
+        width: 220px;
+    }
+
+    
+}
